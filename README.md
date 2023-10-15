@@ -11,3 +11,6 @@
 
 ### lesson 004 : 
 > String and some useful functions
+
+### lesson 004 : 
+> Number and Math library

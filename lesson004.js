@@ -14,3 +14,22 @@ console.log(`last index of a : ${namee.lastIndexOf('a')}`);
 console.log(`index of t : ${namee.indexOf('t')}`);
 
 // partitioning a string
+// negative values are ignored
+const newString = namee.substring(0, 2);
+console.log(newString);
+
+// negative values are taken into consideration
+const anotherString = namee.slice(-8, 3);
+console.log(anotherString);
+
+// trim and replace 
+let s2 = "      dfdsfdsf     ";
+console.log(s2);
+s2 = s2.trim();
+console.log(s2);
+
+const url = "dssf%20df@gmail.com";
+console.log(url.replace('%20', '-'));
+
+// split
+console.log(namee.split('a'));
