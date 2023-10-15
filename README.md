@@ -17,3 +17,9 @@
 
 ### lesson 006 : 
 > Date Time library
+
+### lesson 007 : 
+> Arrays
+
+### lesson 008 : 
+> objects
