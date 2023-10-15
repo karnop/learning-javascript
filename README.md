@@ -12,5 +12,8 @@
 ### lesson 004 : 
 > String and some useful functions
 
-### lesson 004 : 
+### lesson 005 : 
 > Number and Math library
+
+### lesson 006 : 
+> Date Time library
