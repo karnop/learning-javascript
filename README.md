@@ -36,7 +36,9 @@
 ### lesson 012 :
 > High order array loops
 
-### lesson 013
+### lesson 013 : 
 > fiter, map and reduce
 
+### lesson 014 : 
+> DOM 
 

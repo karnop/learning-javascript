@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom Learning</title>
+    <style>
+    body
+    {
+        background-color: #212121;
+        color: wheat;
+    }
+    </style>
+</head>
+<body>
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+
+<script>
+    // const parent = document.querySelector(".parent");
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+
+    //  ADDING AN ELEMENT TO THE DOM
+    // const div = document.createElement("div");
+    // console.log(div);
+    // div.className = "main";
+    // div.id = "myId";
+    // div.setAttribute("title", "generated-title");
+    // div.style.backgroundColor = "#202020";
+    // div.style.padding = "12px";
+    
+    // div.innerText = "Manav";
+    // // better alternative for innertext
+    // const addText = document.createTextNode("Manav");
+    // div.appendChild(addText);
+
+    // // adding the div to document
+    // document.body.appendChild(div);
+
+    // // UPDATING AND DELETING ELEMENT FROM DOM
+    //  function addLanguage(langName)
+    // {
+    //     const li = document.createElement("li");
+    //     const text = document.createTextNode(langName);
+    //     li.appendChild(text);
+    //     document.querySelector(".language").appendChild(li);
+    // }
+    // addLanguage("Java");
+    // addLanguage("Python");
+    // addLanguage("TpeScript");
+    // addLanguage("C++");
+    // addLanguage("C");
+
+    // function addLanguageOptimized(langName)
+    // {
+    //     const li = document.createElement("li");
+    //     li.appendChild(document.createTextNode(langName));
+    //     document.querySelector(".language").appendChild(li);
+    // }
+    // addLanguageOptimized("GoLang");
+
+    // // editing
+    // const secondLang = document.querySelector("li:nth-child(2)");
+    // const newli = document.createElement("li");
+    // newli.appendChild(document.createTextNode("MoJo"));
+    // secondLang.replaceWith(newli);
+
+    // // remove
+    // const lastLang = document.querySelector("li:last-child");
+    // lastLang.remove();
+</script>
+
+</html>
