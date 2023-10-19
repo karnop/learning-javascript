@@ -23,3 +23,17 @@
 
 ### lesson 008 : 
 > objects
+
+### lesson 009 : 
+> Functions
+
+### lesson 010 : 
+> Scope level and mini hoisting
+
+### lesson 011 :
+> this keyword and arrow functions
+
+### lesson 012 :
+> High order array loops
+
+
