@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li id="l1">Owl</li>
+    </ul>
+</body>
+<script>
+    // document.getElementById("l1").onclick = function()
+    // {
+    //     alert("owl clicked");
+    // }
+
+    document.getElementById("l1").addEventListener("click", function(){
+        alert("owl clicked");
+    }, false);  // last parameter is event Propagation
+
+    // (e) => {}
+    // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget,
+    // clientX, clientY, screenX, screenY 
+    // altkey, ctrlkey, shiftkey, keyCode
+
+
+</script>
+</html>
