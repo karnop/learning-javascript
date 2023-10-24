@@ -53,3 +53,6 @@
 
 ### lesson 019 : 
 > api using XMLHttpRequest
+
+### lesson 020 :
+> promises in Js (then, async await)
